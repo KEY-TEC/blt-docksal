@@ -1,0 +1,19 @@
+{
+  "name": "docksal/blt-docksal",
+  "description": "Docksal integration for Acquia BLT",
+  "license": "GPL-2.0+",
+  "authors":[
+    {
+      "name": "Christian Wiedemann",
+      "homepage": "https://www.key-tec.de",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Docksal\\BltDocksal\\": "./src/"
+    },
+    "classmap":["src/Blt/Plugin/EnvironmentDetector/DocksalDetector.php"]
+  }
+}
